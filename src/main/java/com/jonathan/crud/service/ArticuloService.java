@@ -1,11 +1,11 @@
-package com.jonathan.crud.dao;
+package com.jonathan.crud.service;
 
 import java.util.List;
 
 import com.jonathan.crud.entity.Articulo;
 
-public interface ArticuloDao {
-
+public interface ArticuloService {
+	
 	public List<Articulo> findAll();
 	
 	public void save(Articulo articulo);
@@ -13,5 +13,5 @@ public interface ArticuloDao {
 	public void deleteById(int id);
 	
 	public void update(Articulo articulo);
-	
+
 }
